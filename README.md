@@ -1,5 +1,5 @@
 # vendor_management_system
-git clone [repository-url]
+git clone (https://github.com/sayimshah/vendor_management_system.git)
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
