@@ -53,4 +53,3 @@ class PurchaseOrderAPITest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(PurchaseOrder.objects.count(), 2)
 
-    # Add more test methods for other CRUD operations on PurchaseOrder model
